@@ -1,6 +1,6 @@
-package net.lpcamors.colored_tooltips;
+package net.lpcamors.coloring_tooltips;
 
-import net.lpcamors.colored_tooltips.config.TooltipElements;
+import net.lpcamors.coloring_tooltips.config.TooltipElements;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.network.chat.Style;
@@ -10,10 +10,9 @@ import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-import java.util.List;
 
 @Mod.EventBusSubscriber
-public class ColoredTooltipsEvents {
+public class ColoringTooltipsEvents {
 
 
     @SubscribeEvent
@@ -21,7 +20,6 @@ public class ColoredTooltipsEvents {
         Player player = event.getEntity();
         ItemStack itemStack = event.getItemStack();
         if(player == null || !Config.APPLY_CHANGES.get()) return;
-        List<Component> newTooltip = event.getToolTip();
         MutableComponent component = Component.literal("");
         component.withStyle(Style.EMPTY);
         Config.TOOLTIP_ELEMENTS_ORDER.get().forEach(tooltipElement -> {

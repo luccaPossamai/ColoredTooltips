@@ -246,7 +246,7 @@
 [29ago.2023 01:16:01.740] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@40a72ecd - got cpw.mods.cl.ModuleClassLoader@d1a10ac
 [29ago.2023 01:16:01.741] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
 [29ago.2023 01:16:01.760] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@40a72ecd - got cpw.mods.cl.ModuleClassLoader@d1a10ac
-[29ago.2023 01:16:01.760] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.lpcamors.colored_tooltips.ColoredTooltips
+[29ago.2023 01:16:01.760] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.lpcamors.coloring_tooltips.ColoringTooltips
 [29ago.2023 01:16:01.818] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 47.0 from cpw.mods.modlauncher.TransformingClassLoader@40a72ecd
 [29ago.2023 01:16:01.818] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 47.0.35
 [29ago.2023 01:16:01.818] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 47.0
@@ -258,8 +258,8 @@
 [29ago.2023 01:16:01.832] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.0.35 Initialized
 [29ago.2023 01:16:01.882] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file colored_tooltips-client.toml for colored_tooltips tracking
 [29ago.2023 01:16:01.883] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for colored_tooltips
-[29ago.2023 01:16:01.887] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.lpcamors.colored_tooltips.ColoredTooltipsEvents to FORGE
-[29ago.2023 01:16:01.898] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.lpcamors.colored_tooltips.Config to MOD
+[29ago.2023 01:16:01.887] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.lpcamors.coloring_tooltips.ColoringTooltipsEvents to FORGE
+[29ago.2023 01:16:01.898] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.lpcamors.coloring_tooltips.Config to MOD
 [29ago.2023 01:16:01.973] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
 [29ago.2023 01:16:01.973] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
 [29ago.2023 01:16:01.975] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
